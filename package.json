@@ -1,0 +1,26 @@
+{
+  "name": "twitch-bot-boilerplate",
+  "version": "1.0.0",
+  "description": "Twitch Bot starter templater",
+  "main": "src/bot.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/bot.js",
+    "test": "jest --silent --coverage"
+  },
+  "author": "Ivan Kucher",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/node": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "config": "^3.0.1",
+    "nodemon": "^1.19.2",
+    "tmi.js": "^1.4.2"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
+rgb(119,
+44,
+232);
