@@ -9,8 +9,9 @@ let commandResolver = (channel, user, message) => {
 };
 
 let recognizeCommand = message => {
+  const lowerCaseMessage = message.toLowerCase();
   const regex = /\!(.*?)$/gm;
-  const fullCommand = regex.exec(message);
+  const fullCommand = regex.exec(lowerCaseMessage);
 
   if (fullCommand) {
     const splittedCommand = fullCommand[1].split(" ");
